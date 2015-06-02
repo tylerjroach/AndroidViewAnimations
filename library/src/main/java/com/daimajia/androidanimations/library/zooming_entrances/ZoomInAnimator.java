@@ -27,7 +27,7 @@ package com.daimajia.androidanimations.library.zooming_entrances;
 import android.view.View;
 
 import com.daimajia.androidanimations.library.BaseViewAnimator;
-import com.nineoldandroids.animation.ObjectAnimator;
+import android.animation.ObjectAnimator;
 
 public class ZoomInAnimator extends BaseViewAnimator {
     @Override

@@ -72,12 +72,8 @@ import com.daimajia.androidanimations.library.sliders.SlideOutDownAnimator;
 import com.daimajia.androidanimations.library.sliders.SlideOutLeftAnimator;
 import com.daimajia.androidanimations.library.sliders.SlideOutRightAnimator;
 import com.daimajia.androidanimations.library.sliders.SlideOutUpAnimator;
-import com.daimajia.androidanimations.library.specials.HingeAnimator;
 import com.daimajia.androidanimations.library.specials.RollInAnimator;
 import com.daimajia.androidanimations.library.specials.RollOutAnimator;
-import com.daimajia.androidanimations.library.specials.in.DropOutAnimator;
-import com.daimajia.androidanimations.library.specials.in.LandingAnimator;
-import com.daimajia.androidanimations.library.specials.out.TakingOffAnimator;
 import com.daimajia.androidanimations.library.zooming_entrances.ZoomInAnimator;
 import com.daimajia.androidanimations.library.zooming_entrances.ZoomInDownAnimator;
 import com.daimajia.androidanimations.library.zooming_entrances.ZoomInLeftAnimator;
@@ -91,10 +87,6 @@ import com.daimajia.androidanimations.library.zooming_exits.ZoomOutUpAnimator;
 
 public enum Techniques {
 
-    DropOut(DropOutAnimator.class),
-    Landing(LandingAnimator.class),
-    TakingOff(TakingOffAnimator.class),
-
     Flash(FlashAnimator.class),
     Pulse(PulseAnimator.class),
     RubberBand(RubberBandAnimator.class),
@@ -106,7 +98,6 @@ public enum Techniques {
     StandUp(StandUpAnimator.class),
     Wave(WaveAnimator.class),
 
-    Hinge(HingeAnimator.class),
     RollIn(RollInAnimator.class),
     RollOut(RollOutAnimator.class),
 

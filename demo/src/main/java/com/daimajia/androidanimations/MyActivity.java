@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-import com.nineoldandroids.animation.Animator;
+import android.animation.Animator;
 
 public class MyActivity extends Activity {
 

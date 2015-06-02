@@ -27,7 +27,7 @@ package com.daimajia.androidanimations.library.fading_exits;
 import android.view.View;
 
 import com.daimajia.androidanimations.library.BaseViewAnimator;
-import com.nineoldandroids.animation.ObjectAnimator;
+import android.animation.ObjectAnimator;
 
 public class FadeOutUpAnimator extends BaseViewAnimator {
     @Override

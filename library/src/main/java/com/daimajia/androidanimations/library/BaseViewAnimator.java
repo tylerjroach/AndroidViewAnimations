@@ -27,9 +27,8 @@ package com.daimajia.androidanimations.library;
 import android.view.View;
 import android.view.animation.Interpolator;
 
-import com.nineoldandroids.animation.Animator.AnimatorListener;
-import com.nineoldandroids.animation.AnimatorSet;
-import com.nineoldandroids.view.ViewHelper;
+import android.animation.Animator.AnimatorListener;
+import android.animation.AnimatorSet;
 
 public abstract class BaseViewAnimator {
 
@@ -61,16 +60,16 @@ public abstract class BaseViewAnimator {
      * @param target
      */
     public void reset(View target) {
-        ViewHelper.setAlpha(target, 1);
-        ViewHelper.setScaleX(target, 1);
-        ViewHelper.setScaleY(target, 1);
-        ViewHelper.setTranslationX(target, 0);
-        ViewHelper.setTranslationY(target, 0);
-        ViewHelper.setRotation(target, 0);
-        ViewHelper.setRotationY(target, 0);
-        ViewHelper.setRotationX(target, 0);
-        ViewHelper.setPivotX(target, target.getMeasuredWidth() / 2.0f);
-        ViewHelper.setPivotY(target, target.getMeasuredHeight() / 2.0f);
+        target.setAlpha(1);
+        target.setScaleX(1);
+        target.setScaleY(1);
+        target.setTranslationX(0);
+        target.setTranslationY(0);
+        target.setRotation(0);
+        target.setRotationY(0);
+        target.setRotationX(0);
+        target.setPivotX(target.getMeasuredWidth() / 2.0f);
+        target.setPivotY(target.getMeasuredHeight() / 2.0f);
     }
 
     /**
